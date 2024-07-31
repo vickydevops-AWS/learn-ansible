@@ -1,5 +1,4 @@
-- host: all
-  task:
+- hosts: all
+  tasks:
     - ping: 
 
-    

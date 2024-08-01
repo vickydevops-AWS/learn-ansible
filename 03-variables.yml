@@ -5,4 +5,7 @@
   tasks: 
    - name: Print URL
      ansible.builtin.debug:
-       msg: "URL = {{ URL }}"  #same like shell, you care accessing variable with prefix $, here variables will be under {{ }}  
+       msg: "URL = {{ URL }}"  # same like shell, you care accessing variable with prefix $, here variables will be under {{ }}  
+                               # if the value starts with the variables. thenit requires quotes and we can use any single or double quotes 
+                               # unlike shell, here in ansible single or double qoutes doesn't have any difference
+                               
